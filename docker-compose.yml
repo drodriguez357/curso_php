@@ -35,6 +35,6 @@ services:
       - 80
     ports:
       # Puerto de nuestra máquina : puerto dentro de Docker (siempre va a ser el 80 para apache o 443 para SSL)
-      - 80:80
+      - 160:80
     links: 
       - contendor_mysql
